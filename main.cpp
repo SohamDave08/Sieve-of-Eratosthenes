@@ -1,15 +1,15 @@
 #include "bits/stdc++.h"
 using namespace std;
+
 void sieve(int n)
 {
-    //? create boolean array
+    // ? create boolean array
     bool prime[n+1];
-    memset(prime, true, sizeof(prime));
+    memset(prime, true, sizeof(prime)); 
 
     for(int p=2;(p*p)<=n;p++)
     {
-
-        //? If prime[p] ---> False ---> not a prime number
+        // ? If prime[p] ---> False ---> not a prime number
 
         if(prime[p]==true)
         {
@@ -18,7 +18,8 @@ void sieve(int n)
         }
     }
 
-    // ? Print prime numbers 
+    // ? Print prime numbers
+    cout<<endl<<"Prime numbers till "<<n<<" are\n"; 
     for(int i=2;i<=n;i++)
     {
         if(prime[i] == true)
