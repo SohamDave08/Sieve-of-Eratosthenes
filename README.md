@@ -13,10 +13,19 @@ Time Complexity: O(root(n));
 
 ## Algorithm
 
->Create array integers from 2 to n
+>1. Create array integers from 2 to n
+##
 >2. Initially, let p=2, the first prime number
+##
 >3. Loop: (p=2 ; p*p<=n ; p++>)
+##
 >4. if(prime[p] == true)
+##
+>5. for(i=p*p ; i<=n ; i=i+p)
+##
+>> prime[i] = false;
+##
+>6. Repeat for entire loop from step (3)
 
 ### Thanks For Reading
 
