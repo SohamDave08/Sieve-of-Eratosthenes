@@ -1,6 +1,6 @@
-# Sieve-of-Eratosthenes
+# Sieve of Eratosthenes
 
-## Logic behind the decimal-to-binary conversion
+## Logic behind the Sieve of Eratosthenes algorithm
 
 Sieve of Eratosthenes algorithm to find all the prime numbers till 'n'. It is most efficient way to find all primes smaller than 'n'. It is super optimised and can handle upto 10 million numbers at a time. 
 
