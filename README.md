@@ -4,7 +4,7 @@
 
 Sieve of Eratosthenes algorithm to find all the prime numbers till 'n'. It is most efficient way to find all primes smaller than 'n'. It is super optimised and can handle upto 10 million numbers at a time. 
 
-Time Complexity: O(root(n));
+Time Complexity: O(sqrt(n));
 
 
 ## Output for the code
